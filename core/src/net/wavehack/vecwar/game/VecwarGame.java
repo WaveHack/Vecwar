@@ -1,4 +1,4 @@
-package net.wavehack.vecwar;
+package net.wavehack.vecwar.game;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class VecwarGame extends ApplicationAdapter {
+
 	private SpriteBatch batch;
 	private Texture img;
 	
@@ -30,4 +31,5 @@ public class VecwarGame extends ApplicationAdapter {
 		this.batch.dispose();
 		this.img.dispose();
 	}
+
 }

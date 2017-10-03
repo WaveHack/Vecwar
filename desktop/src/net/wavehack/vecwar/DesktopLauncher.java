@@ -1,8 +1,8 @@
-package net.wavehack.vecwar.desktop;
+package net.wavehack.vecwar;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import net.wavehack.vecwar.VecwarGame;
+import net.wavehack.vecwar.game.VecwarGame;
 
 public class DesktopLauncher {
 
