@@ -5,6 +5,7 @@ import com.artemis.WorldConfigurationBuilder;
 import com.artemis.managers.TagManager;
 import net.wavehack.vecwar.api.screen.core.WorldScreen;
 import net.wavehack.vecwar.api.system.render.ClearScreenSystem;
+import net.wavehack.vecwar.game.system.view.GameScreenSetupSystem;
 
 public class GameScreen extends WorldScreen {
 
@@ -18,6 +19,8 @@ public class GameScreen extends WorldScreen {
                 // Passive - System
 
                 // Initialize
+                //new GameScreenAssetSystem(),
+                new GameScreenSetupSystem(),
 
                 // Active - Input
 
